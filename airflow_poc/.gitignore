@@ -1,0 +1,14 @@
+/kube_config
+/logs/
+/webserver_config.py
+/utility.sh
+/run_airflow.sh
+/unittests.cfg
+/airflow.cfg
+/airflow.db
+/variables/
+/.idea/
+/containers/
+/python_scripts/
+/dags/
+/.DS_Store
