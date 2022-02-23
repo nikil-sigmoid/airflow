@@ -1,0 +1,27 @@
+#
+#
+# {
+#         "vault.hashicorp.com/agent-inject": "true",
+#         "vault.hashicorp.com/agent-inject-secret-gcp-sa-storage.json": "secret/data/gcp-service-accounts/cp-gdo-dev-analytics/gcp-sa-storage",
+#         "vault.hashicorp.com/agent-inject-secret-sf_creds.json": "database/static-creds/snowflake-dev--dgtl-elt",
+#         "vault.hashicorp.com/agent-inject-secret-sfmc_sftp_ae.json": "secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_ae",
+#         "vault.hashicorp.com/agent-inject-secret-sfmc_sftp_ap.json": "secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_ap",
+#         "vault.hashicorp.com/agent-inject-secret-sfmc_sftp_eu.json": "secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_eu",
+#         "vault.hashicorp.com/agent-inject-secret-sfmc_sftp_hills.json": "secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_hills",
+#         "vault.hashicorp.com/agent-inject-secret-sfmc_sftp_la.json": "secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_la",
+#         "vault.hashicorp.com/agent-inject-secret-sfmc_sftp_na.json": "secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_na",
+#         "vault.hashicorp.com/agent-inject-secret-sfmc_sftp_tom.json": "secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_tom",
+#         "vault.hashicorp.com/agent-inject-template-gcp-sa-storage.json": "{{ with secret \"secret/data/gcp-service-accounts/cp-gdo-dev-analytics/gcp-sa-storage\"}}{{ .Data.data | toJSON }}{{ end }}",
+#         "vault.hashicorp.com/agent-inject-template-sf_creds.json": "{{ with secret \"database/static-creds/snowflake-dev--dgtl-elt\"}}{{ .Data | toJSON }}{{ end }}",
+#         "vault.hashicorp.com/agent-inject-template-sfmc_sftp_ae.json": "{{ with secret \"secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_ae\"}}{{ .Data.data | toJSON }}{{ end }}",
+#         "vault.hashicorp.com/agent-inject-template-sfmc_sftp_ap.json": "{{ with secret \"secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_ap\"}}{{ .Data.data | toJSON }}{{ end }}",
+#         "vault.hashicorp.com/agent-inject-template-sfmc_sftp_eu.json": "{{ with secret \"secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_eu\"}}{{ .Data.data | toJSON }}{{ end }}",
+#         "vault.hashicorp.com/agent-inject-template-sfmc_sftp_hills.json": "{{ with secret \"secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_hills\"}}{{ .Data.data | toJSON }}{{ end }}",
+#         "vault.hashicorp.com/agent-inject-template-sfmc_sftp_la.json": "{{ with secret \"secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_la\"}}{{ .Data.data | toJSON }}{{ end }}",
+#         "vault.hashicorp.com/agent-inject-template-sfmc_sftp_na.json": "{{ with secret \"secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_na\"}}{{ .Data.data | toJSON }}{{ end }}",
+#         "vault.hashicorp.com/agent-inject-template-sfmc_sftp_tom.json": "{{ with secret \"secret/data/teams/gdo-analytics/sfmc_sftp/sfmc_sftp_tom\"}}{{ .Data.data | toJSON }}{{ end }}",
+#         "vault.hashicorp.com/agent-pre-populate-only": "true",
+#         "vault.hashicorp.com/role": "dev-gdo-analytics",
+#         "vault.hashicorp.com/tls-skip-verify": "true"
+#     }
+#

@@ -6,9 +6,6 @@
 /unittests.cfg
 /airflow.cfg
 /airflow.db
-/variables/
 /.idea/
 /containers/
-/python_scripts/
-/dags/
 /.DS_Store

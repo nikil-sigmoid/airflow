@@ -1,0 +1,25 @@
+{
+  "dataset_list_str":
+  {
+     "ds_1":{
+        "file_name_stem":"ds_1_something",
+        "sf_table_name":"ds_1_something"
+     },
+     "ds_2":{
+        "file_name_stem":"ds_2_something",
+        "sf_table_name":"ds_2_something"
+     },
+     "ds_3":{
+        "file_name_stem":"ds_3_something",
+        "sf_table_name":"ds_3_something"
+     },
+     "ds_4":{
+        "file_name_stem":"ds_4_something",
+        "sf_table_name":"ds_4_something"
+     },
+     "ds_5":{
+        "file_name_stem":"ds_5_something",
+        "sf_table_name":"ds_5_something"
+     }
+  }
+}
