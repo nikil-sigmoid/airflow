@@ -1,0 +1,11 @@
+FROM python
+
+# VOLUME ["/mnt/randomName"]
+
+RUN echo "Hello World! Welcome to Docker world." > greeting.txt
+# RUN cd mnt; cd randomName
+COPY hello_world.py ./
+# RUN cd mnt/randomName; ls -al >> greeting.txt
+# CMD cat greeting.txt
+
+ENTRYPOINT ["python", "hello_world.py"]

@@ -1,0 +1,9 @@
+[kubernetes]
+airflow_configmap = dev-gdo-analytics-airflow-config
+airflow_local_settings_configmap = dev-gdo-analytics-airflow-config
+multi_namespace_mode = False
+namespace = dev-gdo-analytics
+pod_template_file = /opt/airflow/pod_templates/pod_template_file.yaml
+worker_container_repository = us-east4-docker.pkg.dev/cp-artifact-registry/airflow/airflow
+worker_container_tag = 2.2.2-python3.7
+worker_pods_creation_batch_size = 4

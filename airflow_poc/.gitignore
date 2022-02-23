@@ -7,5 +7,5 @@
 /airflow.cfg
 /airflow.db
 /.idea/
-/containers/
 /.DS_Store
+/useful_piece_of_code.txt

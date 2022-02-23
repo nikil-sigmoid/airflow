@@ -1,0 +1,3 @@
+FROM ubuntu:latest
+RUN echo "Hello World! Welcome to Docker world." > greeting.txt
+CMD cat greeting.txt

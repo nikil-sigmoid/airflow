@@ -1,0 +1,8 @@
+
+target/
+dbt_modules/
+logs/
+/encoded_gcs_sa.json
+/gcp_dbt_sa.json
+/gcs_sa_dbt.json
+/profile/profiles.yml

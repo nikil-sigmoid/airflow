@@ -1,0 +1,4 @@
+FROM ubuntu
+
+# CMD echo "vault token: $VAULT_TOKEN
+CMD ls -al

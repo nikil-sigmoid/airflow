@@ -1,0 +1,4 @@
+/.idea/
+/dbt_run/dag_exa.py
+/dbt_run/project_dir/dbt_sample/profile/gcp_dbt_sa.json
+/dbt_run/project_dir/dbt_sample/profile/.user.yml
